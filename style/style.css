@@ -31,6 +31,7 @@
     position: absolute;
     top: 673px;
     left: 18px;
+    animation: fishmove3 5s linear infinite;
 }
 
 .fish4 {
@@ -46,7 +47,7 @@
     top: 23px;
     left: 18px;
     transform: rotate(60deg);
-    animation: fishMove1 35s linear infinite;
+    animation: fishMove5 35s linear infinite;
 }
 
 .fish6 {
@@ -57,7 +58,21 @@
 }
 
 
-@keyframes fishMove1 {
+@keyframes fishMove5 {
     0%   {top: 23px; left: 18px;}
     100% {top: 806px; left: 1541px;}
+}
+
+@keyframes move {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    50%  {top: 100px;}
+    75%  {top: 200px;}
+    100% {top: 0px;}
+  }
+
+  @keyframes fishmove3 {
+    0%   {top: 673px; left: 18px;}
+    50%  {top: 469px; left: 807px;}
+    100% {top: -152px; left: -1196px; transform: rotate(-316deg);}
   }
