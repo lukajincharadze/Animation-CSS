@@ -25,3 +25,39 @@
     top: 913px;
     left: 69px;
 }
+
+.fish3 {
+    width: 300px;
+    position: absolute;
+    top: 673px;
+    left: 18px;
+}
+
+.fish4 {
+    width: 300px;
+    position: absolute;
+    top: 909px;
+    left: 1579px;
+}
+
+.fish5 {
+    width: 300px;
+    position: absolute;
+    top: 23px;
+    left: 18px;
+    transform: rotate(60deg);
+    animation: fishMove1 35s linear infinite;
+}
+
+.fish6 {
+    width: 300px;
+    position: absolute;
+    top: 486px;
+    left: 780px;
+}
+
+
+@keyframes fishMove1 {
+    0%   {top: 23px; left: 18px;}
+    100% {top: 806px; left: 1541px;}
+  }
