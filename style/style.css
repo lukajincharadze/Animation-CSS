@@ -5,24 +5,18 @@
    z-index: -1000000;
 }
 
-/* .bicycle {
-    width: 250px;
-    top: 100px;
-    left: 400px;
-    position: relative;
-} */
-
 .fish1 {
     width: 300px;
     position: absolute;
     top: 163px;
     left: -340px;
-    animation: fishMove1 35s linear infinite 2s;
+    animation: fishMove1 35s linear infinite;
 }
 @keyframes fishMove1 {
     0%   {top: 163px; left: 1600px;}
     100% {top: 500px; left: -300px; transform: rotate(-40deg)}
 }
+
 .fish2 {
     width: 300px;
     position: absolute;
@@ -46,7 +40,7 @@
     0%   {top: 673px; left: 18px;}
     50%  {top: 469px; left: 807px;}
     100% {top: -152px; left: 1300px; transform: rotate(-60deg);}
-  }
+}
 
 .fish4 {
     width: 300px;
@@ -87,6 +81,3 @@
     0%   {top: 343px; left: -289px;}
     100% {top: 330px; left: 1571px;}
 }
-
-
-  
