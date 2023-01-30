@@ -17,22 +17,22 @@
     position: absolute;
     top: 163px;
     left: -340px;
-    animation: fishMove1 55s linear infinite 2s;
+    animation: fishMove1 35s linear infinite 2s;
 }
 @keyframes fishMove1 {
     0%   {top: 163px; left: 1600px;}
-    100% {top: 163px; left: -340px;}
+    100% {top: 500px; left: -300px; transform: rotate(-40deg)}
 }
 .fish2 {
     width: 300px;
     position: absolute;
-    top: 913px;
+    top: 740px;
     left: -300px;
     animation: fishMove2 55s linear infinite 2s;
 }
 @keyframes fishMove2 {
-    0%   {top: 865px; left: -300px;}
-    100% {top: 865px; left: 1500px; ransform: rotate(-60deg)}
+    0%   {top: 740px; left: -300px;}
+    100% {top: 740px; left: 1500px;}
 }
 
 .fish3 {
@@ -51,8 +51,14 @@
 .fish4 {
     width: 300px;
     position: absolute;
-    top: 909px;
-    left: 1579px;
+    top: 770px;
+    left: 1603px;
+    animation: fishMove4 35s linear infinite;
+}
+@keyframes fishMove4 {
+    0%   {top: 770px; left: 1603px;}
+    100% {top: -182px; left: -182px; transform: rotate(60deg);
+    }
 }
 
 .fish5 {
@@ -72,17 +78,14 @@
 .fish6 {
     width: 300px;
     position: absolute;
-    top: 747px;
-    left: 942px;
-}
-.fish6:hover {
-    width: 350px; 
-    transition: all 0.3s linear;
+    top: 343px;
+    left: -289px;
+    animation: fishMove6 35s linear infinite;
 }
 
 @keyframes fishMove6 {
-    0%   {top: 23px; left: 18px;}
-    100% {top: 806px; left: 1541px;}
+    0%   {top: 343px; left: -289px;}
+    100% {top: 330px; left: 1571px;}
 }
 
 
